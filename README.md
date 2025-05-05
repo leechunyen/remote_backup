@@ -42,7 +42,7 @@ Key features:
 | `-p` | Protocol: `ftp`, `ftps`, `sftp`, or `webdav` | Yes | `-p sftp` |
 | `-u` | Username for remote server | Yes | `-u myuser` |
 | `-w` | Password for remote server | Yes | `-w mypass` |
-| `-h` | Host address of remote server | Yes | `-h example.com` |
+| `-h` | Host address of remote server | Yes | `-h example.com` or `-h https://example.com` for webdav  |
 | `-d` | Destination base path on remote server | Yes | `-d /backups` |
 | `-n` | Custom name for backup (optional, defaults to timestamp) | No | `-n daily_backup` |
 
