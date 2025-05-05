@@ -65,7 +65,7 @@ This creates a compressed archive (`2025may12_19_03_50.tar.gz`) and uploads it t
 #### File Backup with WebDAV
 Backup a single file `/etc/config.conf` and upload it to `example.com` via WebDAV:
 ```bash
-./remote_backup.sh -t path -s /etc/config.conf -p webdav -u myuser -w mypass -h example.com -d /backups -n config
+./remote_backup.sh -t path -s /etc/config.conf -p webdav -u myuser -w mypass -h https://example.com -d /backups -n config
 ```
 This creates a compressed archive (`config_2025may12_19_03_50.tar.gz`) and uploads it to `/backups`.
 
